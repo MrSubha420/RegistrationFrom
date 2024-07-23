@@ -1,0 +1,81 @@
+
+.form-demo1 {
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+   height: 100vh; 
+   background-color: black;
+ }
+ 
+ .card {
+   width: 90%;
+   max-width: 400px;
+   background-color: #ffffff;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   padding: 2rem;
+ }
+ 
+ .card h2 {
+   text-align: center;
+   margin-bottom: 1.5rem;
+ }
+ 
+ .field {
+   margin-bottom: 1.5rem;
+ }
+ 
+ .label {
+   font-weight: bold;
+ }
+ 
+ .p-inputtext {
+   width: 100%;
+ }
+ 
+ .p-password {
+   width: 100%;
+ }
+ 
+ .p-button {
+   width: 100%;
+ }
+ 
+ .error-message {
+   color: #ff0000;
+   font-size: 0.875rem;
+   margin-top: 0.5rem;
+ }
+ 
+ .popup {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: rgba(0, 0, 0, 0.8);
+   color: #ffffff;
+   padding: 1rem;
+   border-radius: 5px;
+ }
+ 
+ .popup-content {
+   text-align: center;
+ }
+ 
+ .popup-content h3 {
+   margin-bottom: 1rem;
+ }
+ 
+ .popup-content .p-button-secondary {
+   margin-top: 1rem;
+ }
+ 
+ .mt-2 {
+   margin-top: 1rem;
+ }
+ @media (min-width: 576px) {
+  .card {
+    padding: 3rem;
+  }
+
+ }

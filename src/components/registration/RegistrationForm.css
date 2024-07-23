@@ -1,0 +1,70 @@
+/* Container styling */
+.form-demo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #7a7474; /* Light gray background */
+}
+
+/* Card styling */
+.card {
+  width: 90%;
+  max-width: 500px;
+  background-color: #ffffff; /* White background */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+@media (min-width: 576px) {
+  .card {
+    padding: 3rem;
+  }
+}
+
+/* Form field styling */
+.field {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Error message styling */
+.p-error {
+  color: #dc3545; /* Red error text */
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}
+
+/* Button styling */
+.p-button {
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff; /* Primary color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #ffffff; /* White text */
+  transition: background-color 0.3s ease;
+}
+
+.p-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Link styling */
+a {
+  color: #007bff; /* Primary color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3; /* Darker shade on hover */
+}
